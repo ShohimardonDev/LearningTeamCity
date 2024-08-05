@@ -97,6 +97,13 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.4.0")
 
     implementation("androidx.compose.material:material-icons-extended:1.7.0-beta05")
+    
+    //Room
+
+    implementation ("androidx.room:room-runtime:2.5.2")
+    kapt ("androidx.room:room-compiler:2.5.2")
+    implementation ("androidx.room:room-ktx:2.5.2")
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

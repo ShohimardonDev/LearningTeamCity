@@ -17,4 +17,6 @@ object Constant {
     val EXTRA_SMALL_PADDING2 = 6.dp
 
     val SMALL_ICON_SIZE = 11.dp
+
+    val NEWS_DATABASE_NAME = "news_db"
 }
